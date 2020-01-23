@@ -1,0 +1,9 @@
+~ Author   : Majid Derhambakhsh
+~ Created  : 1/22/2020
+~ Support  : Majid.do16@gmail.com
+~ Github ID: Majid-Derhambakhsh
+
+- MCU                  : ATmega8a & ATmega16a 
+- Compiler             : CodeVisionAVR.
+- Library              : -
+- Programming language : C/C++
