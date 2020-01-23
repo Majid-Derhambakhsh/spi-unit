@@ -42,7 +42,9 @@ SPI driver for AVR microcontroller
        
 2.1  Manual initialize:  
 -  Declare a SPI_InitTypeDef initialize structure, for example:  
-> > SPI_InitTypeDef uspi;
+
+       SPI_InitTypeDef uspi;
+       
 -  Set your configuration in SPI_InitTypeDef, for example:
 
        uspi.Mode = _SPI_MODE_MASTER  
@@ -51,8 +53,9 @@ SPI driver for AVR microcontroller
        uspi.ClockPolarity = _SPI_CLOCKPOLARITY_LOW;  
        uspi.ClockFrequency = _SPI_CLOCKRATE_FCPU_16;  
 
--  Initialize the SPI by implementing the SPI_Init() API:
-> > SPI_Init(&uspi);
+-  Initialize the SPI by implementing the SPI_Init() API:  
+
+       SPI_Init(&uspi);
 
 2.2  Default initialize: Initialize the SPI by implementing the SPI_DefaultxInit() API:
       
