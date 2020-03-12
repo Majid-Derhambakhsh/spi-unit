@@ -1,4 +1,4 @@
-![Banner](https://lh3.googleusercontent.com/ZUWIaJnrcU2xYfuWUvNt_VumYYULsSIH37L-MN4tRljDgxtnIz64br_iZC7FMQrquWeWnaKtcIClsw=w958-h965)
+![Banner](SPI-Unit.jpg)
 
 # spi-unit
 SPI driver for AVR microcontroller
