@@ -1,3 +1,5 @@
+![Banner](https://lh3.googleusercontent.com/ZUWIaJnrcU2xYfuWUvNt_VumYYULsSIH37L-MN4tRljDgxtnIz64br_iZC7FMQrquWeWnaKtcIClsw=w958-h965)
+
 # spi-unit
 SPI driver for AVR microcontroller
 
@@ -29,15 +31,15 @@ SPI driver for AVR microcontroller
 
 ### The SPI driver can be used as follows:
 1.1  Set SPI DDR Register & Pins in the spi_unit_conf.h header, for example:  
-
-       /* ------ SPI DDR Register ------ */
-       #define _DDR_SPI   DDRB  
-     
-       /* ---------- SPI Pins ---------- */  
-       #define _MOSI_PIN  3  
-       #define _MISO_PIN  4  
-       #define _SCK_PIN   5  
-
+```c++
+   /* ------ SPI DDR Register ------ */
+   #define _DDR_SPI   DDRB  
+   
+   /* ---------- SPI Pins ---------- */  
+   #define _MOSI_PIN  3  
+   #define _MISO_PIN  4  
+   #define _SCK_PIN   5  
+```
 1.2  Move out the SPI_TxCpltCallback() function from spi_unit_conf.h and paste in .c file
        
 2.1  Manual initialize:  
